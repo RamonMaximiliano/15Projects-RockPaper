@@ -11,7 +11,7 @@ body {
 .maindiv {
     width: 550px;
     background-color: white;
-    height: 580px;
+    height: 640px;
     border-radius: 5%;
     padding: 10px;
     text-align: center;
@@ -43,6 +43,23 @@ body {
     font-size: 35px;
     margin-top: 60px;
 }
+
+.userWins{
+    background-color: rgb(5, 153, 17);
+    color:white;
+}
+
+.aiWins{
+    background-color: rgb(224, 26, 26);
+    color:white;
+}
+
+.nobodyWins{
+    background-color: rgb(110, 110, 110);
+    color:white;
+}
+
+
 
 .score {
     width: 400px;
@@ -80,4 +97,20 @@ body {
 
 .options {
     margin-top: 30px;
+}
+
+.restart{
+    width:150px;
+    height: 50px;
+    margin:auto;
+    margin-top:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color:white;
+    border:none;
+    background-color: rgb(9, 55, 180);
+}
+
+.restart:hover{
+    background-color: rgb(44, 93, 230);
 }
